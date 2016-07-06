@@ -1,0 +1,61 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Colette Isabella
+email: coletteisabella@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  ColetteIsabella is the online home of a girl in meat-space,
+  who needs a place to show her work creating MouseBees, Flying Sloths,
+  Jewelry and more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://coletteisabella.com" # the base hostname & protocol for your site
+twitter_username: coletteisabella
+github_username:  coletteisabella
+
+# Build settings
+markdown: kramdown
+navigation:
+  - text: Gallery
+    url: gallery/
+
+  - text: about
+    url: about
+
+
+# Build settings
+markdown: kramdown
+
+subscribe_rss: atom.xml
+
+
+linkedin_user: coletteisabella
+
+github_user: ColetteIsabella
+github_repo_count: 0
+github_show_profile_link: true
+github_skip_forks: true
+
+twitter_user: coletteisabella
+twitter_tweet_button: true
+
+googleplus_user: coletteisabella
+googleplus_hidden: false
+
+disqus_short_name: cisabella
+disqus_show_comment_count: true
+
+# Updating:
+# New posts: create a new file in _posts with the
+# YYYY-MM-DD-Name.markdown format.
+# Update blog.html
+# ~ jekyll build
+# ~ commit to master
+# check that gh-pages is up to date.
+# DO NOT change anything under _site
+# jekyll serve --watch
+
