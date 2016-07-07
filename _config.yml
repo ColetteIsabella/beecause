@@ -24,7 +24,7 @@ navigation:
     url: gallery/
 
   - text: about
-    url: about
+    url: about/
 
 
 # Build settings

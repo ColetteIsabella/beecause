@@ -84,13 +84,17 @@ nav {
 }
 .sm1, .sm2, .sm3, .sm4,
 .sm5, .sm6, .sm7, .sm8,
-.sm9 {
+.sm9, .sm10, .sm11, .sm12,
+.sm13, .sm14, .sm15, .sm16,
+.sm17, .sm18, .sm19, .sm20 {
   height: 12.5em;
   width: auto;
 }
 .lg1, .lg2, .lg3, .lg4,
 .lg5, .lg6, .lg7, .lg8,
-.lg9 {
+.lg9, .lg10, .lg11, .lg12,
+.lg13, .lg14, .lg15, .lg16,
+.lg17, .lg18, .lg19, .lg20 {
   width: 60%;
   height: auto;
   margin: 1em 20% 1em 20%;
@@ -110,7 +114,9 @@ nav {
 }
 .cap1, .cap2, .cap3, .cap4,
 .cap5, .cap6, .cap7, .cap8,
-.cap9 {
+.cap9, .cap10, .cap11, .cap12,
+.cap13, .cap14, .cap15, .cap16,
+.cap17, .cap18, .cap19, .cap20 {
   text-align: center;
   color: black;
   position: absolute;
@@ -155,6 +161,7 @@ nav {
   transform:rotate(-60deg);
 }
 
+/*--------------about----------*/
 
 /*--------------footer----------*/
 #divide {
