@@ -19,6 +19,8 @@
 
 
 
+
+
     $(".sm1").click(function(){
       $(".lg1").css({"display":"block"});
       $(".cap1").css({"display":"block"});
@@ -113,6 +115,51 @@
     $(".sm19").click(function(){
       $(".lg19").css({"display":"block"});
       $(".cap19").css({"display":"block"});
+    });
+
+    $(".sm20").click(function(){
+      $(".lg20").css({"display":"block"});
+      $(".cap20").css({"display":"block"});
+    });
+
+    $(".sm21").click(function(){
+      $(".lg21").css({"display":"block"});
+      $(".cap21").css({"display":"block"});
+    });
+
+    $(".sm22").click(function(){
+      $(".lg22").css({"display":"block"});
+      $(".cap22").css({"display":"block"});
+    });
+
+    $(".sm23").click(function(){
+      $(".lg23").css({"display":"block"});
+      $(".cap23").css({"display":"block"});
+    });
+
+    $(".sm24").click(function(){
+      $(".lg24").css({"display":"block"});
+      $(".cap24").css({"display":"block"});
+    });
+
+    $(".sm25").click(function(){
+      $(".lg25").css({"display":"block"});
+      $(".cap25").css({"display":"block"});
+    });
+
+    $(".sm26").click(function(){
+      $(".lg26").css({"display":"block"});
+      $(".cap26").css({"display":"block"});
+    });
+
+    $(".sm27").click(function(){
+      $(".lg27").css({"display":"block"});
+      $(".cap27").css({"display":"block"});
+    });
+
+    $(".sm28").click(function(){
+      $(".lg28").css({"display":"block"});
+      $(".cap28").css({"display":"block"});
     });
 
   });

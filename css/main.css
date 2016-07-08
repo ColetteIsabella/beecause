@@ -27,7 +27,12 @@ h1 {
 h2 {
   font-size: 2em;
 }
-
+h3 {
+  font-size: 1.8em;
+}
+p {
+  font-size: 1.9em;
+}
 --------/*header*/--------
 .wrapper {
   width: 100%;
@@ -80,13 +85,15 @@ nav {
 }
 #thumbnails {
   width: 100%;
-  padding: 1em;
+  margin: 1em 10%;
 }
 .sm1, .sm2, .sm3, .sm4,
 .sm5, .sm6, .sm7, .sm8,
 .sm9, .sm10, .sm11, .sm12,
 .sm13, .sm14, .sm15, .sm16,
-.sm17, .sm18, .sm19, .sm20 {
+.sm17, .sm18, .sm19, .sm20,
+.sm21, .sm22, .sm23, .sm24,
+.sm25, .sm26 {
   height: 12.5em;
   width: auto;
 }
@@ -94,7 +101,9 @@ nav {
 .lg5, .lg6, .lg7, .lg8,
 .lg9, .lg10, .lg11, .lg12,
 .lg13, .lg14, .lg15, .lg16,
-.lg17, .lg18, .lg19, .lg20 {
+.lg17, .lg18, .lg19, .lg20,
+.lg21, .lg22, .lg23, .lg24,
+.lg25, .lg26 {
   width: 60%;
   height: auto;
   margin: 1em 20% 1em 20%;
@@ -116,7 +125,9 @@ nav {
 .cap5, .cap6, .cap7, .cap8,
 .cap9, .cap10, .cap11, .cap12,
 .cap13, .cap14, .cap15, .cap16,
-.cap17, .cap18, .cap19, .cap20 {
+.cap17, .cap18, .cap19, .cap20,
+.cap21, .cap22, .cap23, .cap24,
+.cap25 {
   text-align: center;
   color: black;
   position: absolute;
@@ -163,7 +174,38 @@ nav {
 
 /*--------------about----------*/
 
+#about {
+  margin: 1em 2%;
+}
+.aboutme {
+  text-align: center;
+  height: 25em;
+  width: auto;
+  border: 1.5em solid #cc9900;
+  margin: 1% 40%;
+}
+.patrick {
+  height: 25em;
+  margin: 2%;
+  float: left;
+  border: 1em solid #cc9900;
+}
+.molly {
+  float: right;
+  width: 30em;
+  height: auto;
+  margin: 2%;
+  border: 1em solid #cc9900;
+}
+
 /*--------------footer----------*/
+
+footer .wrapper{
+  margin: .5em 10%;
+}
+footer {
+  width: 100%;
+}
 #divide {
   margin-top: 10em;
   text-align: center;
