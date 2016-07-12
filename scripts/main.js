@@ -162,4 +162,29 @@
       $(".cap28").css({"display":"block"});
     });
 
+    $(".sm29").click(function(){
+      $(".lg29").css({"display":"block"});
+      $(".cap29").css({"display":"block"});
+    });
+
+    $(".sm30").click(function(){
+      $(".lg30").css({"display":"block"});
+      $(".cap30").css({"display":"block"});
+    });
+
+    $(".sm31").click(function(){
+      $(".lg31").css({"display":"block"});
+      $(".cap31").css({"display":"block"});
+    });
+
+    $(".sm32").click(function(){
+      $(".lg32").css({"display":"block"});
+      $(".cap32").css({"display":"block"});
+    });
+
+    $(".sm33").click(function(){
+      $(".lg33").css({"display":"block"});
+      $(".cap33").css({"display":"block"});
+    });
+
   });
