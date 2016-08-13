@@ -43,7 +43,7 @@ p {
 }
 nav {
   text-align: center;
-  width: 100%;
+
 }
 .links, .internal {
   height: 4.5em;
@@ -72,6 +72,70 @@ nav {
 @media only screen and (max-width: 800px) {
 
   }
+
+/*-----------Bee Game -------*/
+#game {
+  position: relative;
+  margin: 0;
+  height: 80em;
+  width: 200em;
+  background: #ccffcc;
+  cursor: none;
+  z-index: -1;
+
+}
+#character {
+  height: 10em;
+  width: auto;
+  position: absolute;
+  /*background: url(/bee_game/flyingmb.png);
+-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";*/
+}
+
+.lavender1 {
+  height: 30em;
+  width: auto;
+  float: left;
+  align: horizontal;
+  padding: 0 3em 10% 0;
+  margin-top: 4em;
+}
+
+.lavender2 {
+  height: 38em;
+  width: auto;
+  float: left;
+  align: horizontal;
+  padding: 0 3em 10% 0;
+  margin-top: 4em;
+  z-index: 1;
+}
+
+.lavender3 {
+  height: 25em;
+  width: auto;
+  float: left;
+  align: horizontal;
+  padding: 0 3em 10% 0;
+  margin-top: 4em;
+
+}
+.light {
+  height: 8em;
+  opacity: 0.5;
+  width: auto;
+
+  float: left;
+  margin: 2em 3em 2em 0;
+  position: absolute;
+  z-index: 1;
+
+}
 
 /*-------------Gallery-------*/
 

@@ -29,6 +29,9 @@ navigation:
   - text: blog
     url: blog
 
+  - text: bee
+    url: bee_game
+
 
 # Build settings
 markdown: kramdown

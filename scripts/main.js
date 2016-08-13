@@ -2,6 +2,11 @@
   //$("body").onLoad(function(){
    // $(".large").css({"display": "none"});
   //});
+//$(document).ready(function(){
+  //$(document).on("click", "#enlarge", function(){
+     // $("span").remove();
+    //});
+    var open=false;
   $(function(){
     $("#thumbnails").click(function(){
       $(".close").css({"display":"block"});
@@ -188,3 +193,5 @@
     });
 
   });
+
+
