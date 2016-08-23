@@ -129,13 +129,207 @@ nav {
   height: 8em;
   opacity: 0.5;
   width: auto;
-
   float: left;
   margin: 2em 3em 2em 0;
   position: absolute;
   z-index: 1;
 
 }
+/*------------SlothStories------*/
+.post-header {
+  text-align: center;
+  font-style: bold;
+  font-size: 3rem;
+  margin-bottom: 2em;
+  color: black;
+}
+
+.post-meta, .post-link {
+  text-align: center;
+  display: block;
+  color: #943119;
+}
+li {
+  list-style: none;
+}
+#blog {
+  text-align: center;
+  border-top: .2em solid #cc9900;
+  border-width: 80%;
+  margin: 0 10%;
+}
+#blog .posts {
+  padding: 0;
+}
+.post-content {
+  display: block;
+}
+.post-link {
+  font-size: 2.2rem;
+  line-height: 1rem;
+  text-decoration: none;
+}
+.post-meta {
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-top: .3em;
+  padding-bottom: 1em;
+
+}
+.post-separate{
+  border-bottom: .2em solid #cc9900;
+  border-width: 80%;
+  margin: 1.6em 20%;
+}
+
+#disqus_thread {
+  margin: 0 .75em;
+}
+.blogimg {
+  text-align: center;
+  padding: 1em;
+}
+.beemoji {
+  height: 15em;
+  width: auto;
+  padding: 1em;
+  border: solid .2em #130220;
+  margin: .5em;
+  cursor: pointer;
+}
+.beemojilg {
+  float: right;
+  width: 40%;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #7E589B;
+  margin: 10% 25% 0 25%;
+}
+.beemojiangry {
+  width: 18em;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #130220;
+  margin: .5em;
+  cursor: pointer;
+}
+.beemojiangrylg {
+  float: right;
+  width: 50%;
+  height: auto;
+  padding: 1em;
+  border: solid .2em #7E589B;
+  margin: 20% 25% 0 25%;
+}
+.state {
+  text-align: center;
+}
+.overlay1, .overlay2, .overlay3, .overlay4,
+.overlay5, .overlay6, .overlay7, .overlay8,
+.overlay9, .overlay10, .overlay11, .overlay12,
+.overlay13, .overlay14, .overlay15, .overlay16 {
+  display: none;
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  left: 20%;
+  top: 40%;
+  background-color: #d1d1e0;
+  z-index: 2;
+
+}
+.app-separate {
+  border-bottom: .2em solid #cc9900;
+  border-top: .2em solid #cc9900;
+  border-width: 75%;
+  margin: .6em 20%;
+}
+.leslie {
+  text-align: center;
+}
+.js-apps {
+  text-align: center;
+}
+.slothstories {
+  margin: 3em;
+}
+
+.slothstories h1 {
+  font-size: 2.5em;
+}
+.slothstories h2 {
+  text-align: center;
+}
+.slothstories h3 {
+  padding-left: 2em;
+  padding-right: 1em;
+  font-size: 2.2rem;
+  margin-bottom: .5em;
+}
+.slothstories p {
+  color: #1a0d00;
+  margin-top: .5em;
+}
+.thomas {
+  width: 40%;
+  margin: 1em 30%;
+  height: auto;
+  border: .3em solid #130220;
+}
+.slothstories .caption {
+  width: 100%;
+  padding: 0;
+}
+
+.julianne1 {
+  float: right;
+  width: 35%;
+  margin: 1em 5% 1em 8%;
+  height: auto;
+  border: .3em solid #130220;
+}
+.julianne2 {
+  float: left;
+  width: 35%;
+  margin: 1em 8% 1em 5%;
+  height: auto;
+  border: .3em solid #130220;
+}
+
+@media only screen and (max-width: 800px) {
+.post-header {
+  text-align: center;
+  font-style: bold;
+  font-size: 3rem;
+}
+.post-date, .post-link {
+  text-align: center;
+  display: block;
+}
+
+#blog {
+  border-width: 90%;
+  margin: 0 5%;
+}
+.post-link {
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+.post-meta {
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-top: .3em;
+  padding-bottom: 1em;
+
+}
+.post-separate{
+  border-width: 70%;
+  margin: 1.6em 10%;
+}
+}
+
+/*-------------HCWYM-------*/
+
 
 /*-------------Gallery-------*/
 
