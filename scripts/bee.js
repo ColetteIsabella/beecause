@@ -9,6 +9,7 @@ $(document).ready(function(){
   offset = $("#game").offset();
 });
 
+
 $(document).mousemove(function(b){
   mouseX = b.pageX;
   mouseY = b.pageY;

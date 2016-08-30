@@ -33,6 +33,15 @@ h3 {
 p {
   font-size: 1.9em;
 }
+ul {
+  display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
 --------/*header*/--------
 .wrapper {
   width: 100%;
@@ -180,6 +189,10 @@ li {
   border-bottom: .2em solid #cc9900;
   border-width: 80%;
   margin: 1.6em 20%;
+}
+.post-date{
+  text-align: center;
+  font-size: 2em;
 }
 
 #disqus_thread {
@@ -329,7 +342,14 @@ li {
 }
 
 /*-------------HCWYM-------*/
-
+.page-heading {
+  text-align: center;
+}
+.divide {
+  border-bottom: .2em solid #cc9900;
+  border-width: 40%;
+  margin: 3em 40%;
+}
 
 /*-------------Gallery-------*/
 
