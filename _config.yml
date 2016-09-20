@@ -71,7 +71,6 @@ disqus_show_comment_count: true
 # Updating:
 # New posts: create a new file in _posts with the
 # YYYY-MM-DD-Name.markdown format.
-# Update blog.html
 # ~ jekyll build
 # ~ commit to master
 # check that gh-pages is up to date.

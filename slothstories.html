@@ -4,10 +4,11 @@ title: Sloth Stories
 permalink: /slothstories/
 ---
 <div id="blog">
-<h1 class="post-header">Flying Sloth Stories</h1>
+<h1 class="post-header">Flying Sloths and Other Stories</h1>
+<div class="divide"></div>
 <ul class="posts">
     {% for post in site.posts %}
-      <li>
+      <li class="post-separate">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
