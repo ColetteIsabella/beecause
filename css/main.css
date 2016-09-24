@@ -406,12 +406,14 @@ a {
   position: absolute;
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 75em;
+  overflow: hidden;
   position: relative;
 }
 
 .container div{
-  display: inline;
+  display: inline-block;
+
 }
 .container img {
 
