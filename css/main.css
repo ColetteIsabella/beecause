@@ -432,9 +432,15 @@ a {
 }
 .hcwymsub {
   text-align: center;
-  width: 30%;
+  width: 35%;
   margin: .2em 30%;
   font-size: 2em;
+}
+.hcwympara {
+  text-align: center;
+  width: 35%;
+  margin: .2em 30%;
+  font-size: 1.7em;
 }
 @media only screen and (max-width: 590px) {
   .next img{
