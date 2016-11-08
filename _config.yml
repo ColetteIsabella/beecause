@@ -26,6 +26,9 @@ navigation:
   - text: about
     url: about/
 
+  - text: friends
+    url: friends/
+
   - text: hcwym
     url: hcwym/
   - jekyll-mentions

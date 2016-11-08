@@ -42,12 +42,12 @@ ul {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0;
 }
---------/*header*/--------
+/*--------header--------*/
 .wrapper {
   width: 100%;
 }
 .banner {
-  align: center;
+  text-align: center;
   width: 100%;
 }
 nav {
@@ -342,6 +342,7 @@ li {
 }
 
 /*-------------HCWYM-------*/
+
 #hcwym {
   width: 100%;
 }
@@ -466,15 +467,11 @@ a {
   width: 30%;
   margin: .2em 10%;
   font-size: 2em;
+ }
 }
 /*-------------Gallery-------*/
 
-.gallery h1 {
-  text-align: center;
-}
-.gallery {
-  width: 95%;
-}
+
 #thumbnails {
   text-align: center;
   width: 100%;
@@ -495,7 +492,7 @@ a {
   display: none;
 }
 .gallery span {
-  align: center;
+  text-align: center;
   margin: 0 5%;
   background: #ffffcc;
   position: absolute;
@@ -549,6 +546,7 @@ a {
 
 /*--------------about----------*/
 
+
 #about {
   margin: 1em 2%;
 }
@@ -571,6 +569,25 @@ a {
   height: auto;
   margin: 2%;
   border: 1em solid #cc9900;
+}
+/*--------------secrets----------*/
+
+.tarotrow {
+  width: 99%;
+}
+img.display{
+  width: 20em;
+}
+.secretsub {
+  text-align: center;
+  color: black;
+  position: absolute;
+  font-size: 2.3em;
+  z-index: 1;
+  display: none;
+}
+.education {
+
 }
 
 /*--------------footer----------*/
