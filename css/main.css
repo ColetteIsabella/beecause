@@ -47,6 +47,7 @@ ul {
   width: 100%;
 }
 .banner {
+  margin: 1%;
   text-align: center;
   width: 100%;
 }
@@ -62,14 +63,14 @@ nav {
 
 /*----------Home----------*/
 #row1 {
-  align: center;
+  text-align: center;
   width: 100%;
   margin-bottom: 0;
 }
 #row2 {
-  align: center;
+  text-align: center;
   width: 100%;
-  margin-left: 15%;
+
 }
 
 .comb {
@@ -471,7 +472,9 @@ a {
 }
 /*-------------Gallery-------*/
 
-
+.gallery h1 {
+  text-align: center;
+}
 #thumbnails {
   text-align: center;
   width: 100%;
@@ -572,22 +575,36 @@ a {
 }
 /*--------------secrets----------*/
 
+#friendsonly {
+  background-color: #ffe680;
+  padding: 3%;
+}
 .tarotrow {
-  width: 99%;
+  width: 90%;
+  padding: 3em;
 }
 img.display{
+  float: left;
   width: 20em;
+  border: 1em #1b222d solid;
+
 }
 .secretsub {
   text-align: center;
   color: black;
-  position: absolute;
   font-size: 2.3em;
-  z-index: 1;
-  display: none;
+  margin: 1em .5em;
+}
+.explanation {
+  float: left;
+  margin-top: 1em;
+
 }
 .education {
-
+  text-align: left;
+  position: absolute;
+  margin: .5em;
+  width: 50%;
 }
 
 /*--------------footer----------*/
@@ -596,10 +613,11 @@ footer .wrapper{
   padding: .5em 10%;
 }
 footer {
-  width: 100%;
+  width: 80%;
 }
 #divide {
   margin-top: 10em;
+  margin-left: 15%;
   text-align: center;
   border: 0;
   width: 90%;
