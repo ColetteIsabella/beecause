@@ -608,13 +608,19 @@ img.display{
 }
 
 @media only screen and (max-width: 590px) {
+#friendsonly {
+  background-color: #ffe680;
+  padding: 1%;
+}
 .tarotrow {
-  width: 100%;
-  padding: 1em;
+  width: 90%;
+  padding: 1%;
+  margin-bottom: 2em;
 }
 img.display{
-  align: center;
-  width: 20em;
+  text-align: center;
+  margin: 0 15%;
+  width: 70%;
   border: 1em #1b222d solid;
 
 }
@@ -622,15 +628,17 @@ img.display{
   text-align: center;
   color: black;
   font-size: 2em;
-  margin: 1em .5em;
+  margin: 1em 15%;
 }
 .explanation {
   margin-top: 1em;
 
 }
 .education {
-  margin: .5em;
-  width: 95%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
 }
 
   }
