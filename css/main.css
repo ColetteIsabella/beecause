@@ -607,6 +607,34 @@ img.display{
   width: 50%;
 }
 
+@media only screen and (max-width: 590px) {
+.tarotrow {
+  width: 100%;
+  padding: 1em;
+}
+img.display{
+  align: center;
+  width: 20em;
+  border: 1em #1b222d solid;
+
+}
+.secretsub {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  margin: 1em .5em;
+}
+.explanation {
+  margin-top: 1em;
+
+}
+.education {
+  margin: .5em;
+  width: 95%;
+}
+
+  }
+
 /*--------------footer----------*/
 
 footer .wrapper{
