@@ -1,0 +1,46 @@
+---
+layout: store
+title: store
+permalink: /store/
+---
+<div id="thestore">
+  <h1>Welcome to the MouseBee Store!</h1>
+  <span>My name is Colette, and I am a compulsive crafter and artist.</br>I've decided to set up here, a space where I can sell my pieces as I create them in a more direct environment. My frustration with Etsy is the lack of personal touch, so here I can show you the pieces I love and want you to be able to love, in a more personal environment.</span>
+<hr class="clean">
+
+
+
+  <form action="/your-charge-code" method="POST" id="payment-form">
+    <span class="payment-errors"></span>
+
+  <div class="f-divide">
+    <div class="form-row">
+      <label>
+        <span>Card Number</span>
+        <input type="text" size="20" data-stripe="number" placeholder="•••• •••• •••• ••••" required>
+      </label>
+    </div>
+  </div>
+  <div class="f-divide">
+    <div class="form-row">
+      <label>
+        <span>Expiration (MM/YY)</span>
+        <input type="text" size="2" data-stripe="exp_month" placeholder="••" required>
+      </label>
+      <span> / </span>
+      <input type="text" size="2" data-stripe="exp_year" placeholder="••" required>
+    </div>
+  </div>
+  <div class="f-divide">
+    <div class="form-row">
+      <label>
+        <span>CVC</span>
+        <input type="text" size="4" data-stripe="cvc" placeholder="•••" required>
+      </label>
+    </div>
+  </div>
+  <div class="f-divide">
+    <input type="submit" class="submit" value="Submit Payment">
+</div>
+</form>
+</div>

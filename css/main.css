@@ -643,6 +643,47 @@ img.display{
 
   }
 
+/*---------------store----------*/
+#thestore {
+  text-align: center;
+  margin: 1em 2%;
+}
+#thestore span {
+  font-size: 1.7rem;
+
+}
+.clean {
+  width: 80%;
+  border: 0;
+  margin: 1em 10%;
+  height: .2em;
+  background: #cc9900;
+}
+form {
+
+}
+.f-divide {
+  padding: .7em;
+}
+input {
+  height: 1.2em;
+  font-size: 2rem;
+}
+.submit {
+  height: 1.7em;
+}
+
+ .has-error input {
+      border-width: 2px;
+    }
+    .validation.text-danger:after {
+      content: 'Validation failed';
+    }
+    .validation.text-success:after {
+      content: 'Validation passed';
+    }
+
+
 /*--------------footer----------*/
 
 footer .wrapper{

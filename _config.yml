@@ -23,6 +23,9 @@ navigation:
   - text: Gallery
     url: gallery/
 
+  - text: store
+    url: store/
+
   - text: about
     url: about/
 
