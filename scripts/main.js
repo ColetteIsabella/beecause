@@ -4,10 +4,11 @@ $(document).ready(function(){
   items = $('.container div'),
   itemAmt = items.length;
 
+
   function cycleItems() {
     var item = $('.container div').eq(currentIndex);
     items.hide();
-    item.css('display','inline-block');
+    item.css('display','inline');
   }
 
   $('.next').click(function() {
@@ -28,11 +29,11 @@ $(document).ready(function(){
     cycleItems();
   });
 
+});
 
 
 
-
-
+$(document).ready(function(){
 
   var showLarge = false;
   $(".sm").click(function(){

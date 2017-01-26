@@ -22,6 +22,11 @@ markdown: kramdown
 navigation:
   - text: Gallery
     url: gallery/
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
 
   - text: store
     url: store/

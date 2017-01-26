@@ -383,12 +383,12 @@ a {
 
 .headline{
   text-align: center;
-  padding-top: 0;
+  padding-top: 1em;
 }
 .next img{
   right: 1em;
   margin: 1em;
-  height: 5em;
+  height: 6em;
   margin-top: 30%;
   position: absolute;
   font-size: 1.7em;
@@ -397,7 +397,7 @@ a {
 .prev img{
   left: 1em;
   margin: 1em;
-  height: 5em;
+  height: 6em;
   margin-top: 30%;
   position: absolute;
   font-size: 1.7em;
@@ -405,21 +405,27 @@ a {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
-  height: 65em;
+  height: 80em;
   overflow: hidden;
-  position: relative;
 }
-
-.container div{
-  padding-bottom: 20%;
-  display: inline-block;
+.firstitem {
+  padding-bottom: 7em;
+}
+.container div {
+  position: relative;
+  margin-bottom: 10%;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  height: 70em;
 
 }
 .container img {
-
+  height: 47em;
+  width: auto;
 }
 .daily {
   width: 100%;
@@ -440,8 +446,8 @@ a {
 }
 .hcwympara {
   text-align: center;
-  width: 35%;
-  margin: .2em 30%;
+  width: 50%;
+  margin: .2em 25%;
   font-size: 1.7em;
 }
 @media only screen and (max-width: 590px) {
@@ -486,14 +492,6 @@ a {
   width: auto;
 }
 
-.lg {
-  width: 70%;
-  height: auto;
-  margin: 1em 10%;
-  border: .5em solid #ffffcc;
-  z-index: 0;
-  display: none;
-}
 .gallery span {
   text-align: center;
   margin: 0 5%;
@@ -503,6 +501,14 @@ a {
   top: 10%;
 
 }
+.lg {
+  width: 50%;
+  height: auto;
+  margin: .5em 20%;
+  z-index: 0;
+  display: none;
+}
+
 .caption {
   text-align: center;
   color: black;
