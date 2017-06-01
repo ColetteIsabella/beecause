@@ -21,6 +21,9 @@ body {
   background: #ffff99;
   color: #000;
 }
+.centered {
+  text-align: center;
+}
 h1 {
   font-size: 2.5em;
 }
@@ -478,6 +481,37 @@ a {
 }
 /*-------------Gallery-------*/
 
+#artList {
+  margin-top: 3em;
+}
+#artList {
+  align-self: center;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center; /* center items horizontally, in this case */
+  flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+#detailView {
+  position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+#detailView, #detailViewInner{
+  min-height: 30em;
+  height: relative;
+  font-size: 0.8em;
+  width: 70%;
+  }
+
+
 .gallery h1 {
   text-align: center;
 }
@@ -488,7 +522,7 @@ a {
 }
 
 .sm {
-  height: 12.5em;
+  height: 16.5em;
   width: auto;
 }
 
@@ -535,8 +569,8 @@ a {
   overflow: hidden;
 }
 .hexagon {
-  width: 10.5em;
-  height: 13em;
+  width: 13.5em;
+  height: 18em;
   transform: rotate(120deg);
 
 }
@@ -656,6 +690,18 @@ img.display{
 }
 #thestore span {
   font-size: 1.7rem;
+
+}
+.shopimg {
+  width: 8em;
+  margin: 2em 2em 0 2em;
+
+}
+.listitem {
+  float: left;
+  width: 20em;
+}
+.shopdes{
 
 }
 .clean {

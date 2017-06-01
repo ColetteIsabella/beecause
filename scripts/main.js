@@ -31,10 +31,27 @@ $(document).ready(function(){
 
 });
 
+/*
+var pieces;
+  d3.text("/cisabella.csv"), function(data) {
+    for (var i = 0; i < pieces.length; i++) {
+$("#artList").append('<div class="hexagon"')
+    }
+  }
+});*/
+  //artScrollX = 0;
+  //for (var i = 0; i < pieces.length; i++) {
+    //$("#artList").append('<div class="hexagon" id=' + i + '>');
+    //newdivcontent = '<img class="' + ((escape(pieces[i]["hexagon"]));
+    //newdivcontent += '</div>';
+    //newdiv = $("#" + i);
+    //newdiv.html(newdivcontent);
+    //newdiv.data += '<h3>' + gallery[i]["title"] + '</h3>';
 
+
+  //});
 
 $(document).ready(function(){
-
   var showLarge = false;
   $(".sm").click(function(){
     $(".lg").css({"display": "none"});
