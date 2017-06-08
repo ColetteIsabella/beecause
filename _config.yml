@@ -37,6 +37,9 @@ navigation:
   - text: friends
     url: friends/
 
+  - text: patreon
+    url: patreon/
+
   - text: hcwym
     url: hcwym/
   - jekyll-mentions

@@ -24,6 +24,9 @@ body {
 .centered {
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   font-size: 2.5em;
 }
@@ -67,13 +70,13 @@ nav {
 /*----------Home----------*/
 #row1 {
   text-align: center;
-  width: 100%;
+  width: 95%;
   margin-bottom: 0;
 }
 #row2 {
   text-align: center;
-  width: 100%;
-
+  width: 95%;
+  margin-top: -4em;
 }
 
 .comb {
@@ -82,9 +85,32 @@ nav {
   margin: 0 1%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
+   #row1, #row2 {
+    text-align: center;
+    display: inline;
+    width: 95%;
 
   }
+  #row1 {
+    margin: 0 0 0 2%;
+  }
+  .comb{
+    width: 17%;
+    margin: 3em 1% 5em 1%;
+  }
+
+  }
+/*----------Patreon---------*/
+
+.patreon {
+  text-align: center;
+  width: 100%;
+
+}
+.patreon p {
+  margin: 0 4% 0 4%;
+}
 
 /*-----------Bee Game -------*/
 #game {
@@ -376,6 +402,7 @@ span.halp {
 
 a {
   text-decoration: none;
+  color: #660000;
 }
 
 .divide {
@@ -692,22 +719,75 @@ img.display{
   font-size: 1.7rem;
 
 }
-.shopimg {
+.fdetails {
+  margin: 1em .5em;
+}
+.fdetails span{
+  margin: .5em .5em .5em 2em;
+}
+input#name{
+  width: 15em;
+}
+input#city{
   width: 8em;
-  margin: 2em 2em 0 2em;
+}
+input#zip {
+  width: 5em;
+}
 
+.state {
+  height: 2rem;
+  font-size: 1.7rem;
+  padding: .1rem;
+}
+
+.listitem img {
+  border: .5em solid #cc9900;
+  width: 10em;
+  margin: 2em 2em 0 2em;
 }
 .listitem {
   float: left;
+  padding: .5em;
+  margin: .5em;
   width: 20em;
+  height: 28em;
+  background-color: #ffe680;
+}
+.listitem p {
+  margin: .3em 0;
+}
+.checkbox {
+  height: 1.5em;
+  width: 1.5em;
+
+}
+.checkbox:checked {
+  color: #ffe680;
 }
 .shopdes{
+
+}
+.itemsEach{
+
+}
+.priceEach{
+
+}
+.priceTotal{
 
 }
 .clean {
   width: 80%;
   border: 0;
   margin: 1em 10%;
+  height: .2em;
+  background: #cc9900;
+}
+.cleanshort {
+  width: 40%;
+  border: 0;
+  margin: 2em 30%;
   height: .2em;
   background: #cc9900;
 }

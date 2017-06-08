@@ -31,6 +31,26 @@ $(document).ready(function(){
 
 });
 
+//store:
+function findTotals() {
+  var listItem = [];
+  var storeItem = "price";
+  var storeQuant = "quantity";
+  var subTotal = "subtotal";
+  var total = 0;
+
+  //document.write(
+    //document.storeForm.elements[0].value );
+    //var itemsEach = $(".itemsEach").append(".itemAdd");
+  for (var i=0; i < listItem.length; i++) {
+    //var price = $('.price')
+  }
+
+}
+$(".submit").on("click", "#submit-form", function(){
+  $("#form").submit();
+})
+
 /*
 var pieces;
   d3.text("/cisabella.csv"), function(data) {
