@@ -53,7 +53,7 @@ ul {
   width: 100%;
 }
 .banner {
-  margin: 1%;
+  margin: 0 1%;
   text-align: center;
   width: 100%;
 }
@@ -103,6 +103,10 @@ nav {
   }
 /*----------Patreon---------*/
 
+.patreonposts{
+  text-align: center;
+  margin: 0 5%;
+}
 .patreon {
   text-align: center;
   width: 100%;
@@ -110,6 +114,16 @@ nav {
 }
 .patreon p {
   margin: 0 4% 0 4%;
+}
+.wonder {
+  margin: .5em;
+  width: 20em;
+  border: .2em solid #130220;
+}
+.beeimages {
+  width: 15em;
+  margin: 0 1%;
+  border: .2em solid #cc9900;
 }
 
 /*-----------Bee Game -------*/
@@ -758,9 +772,8 @@ input#zip {
   margin: .3em 0;
 }
 .checkbox {
-  height: 1.5em;
-  width: 1.5em;
-
+  height: 1em;
+  width: 1em;
 }
 .checkbox:checked {
   color: #ffe680;
@@ -775,7 +788,12 @@ input#zip {
 
 }
 .priceTotal{
-
+  text-align: center;
+  margin: 0;
+  font-size: 1.3rem;
+}
+.stripe-button-el span{
+  background: #cc9900;
 }
 .clean {
   width: 80%;
@@ -814,7 +832,24 @@ input {
     .validation.text-success:after {
       content: 'Validation passed';
     }
+@media only screen and (max-width: 590px) {
+  input#name{
+  width: 10em;
+}
+input#city{
+  width: 6em;
+}
+input#zip {
+  width: 5em;
+}
 
+.state {
+  height: 2rem;
+  font-size: 1.7rem;
+  padding: .1rem;
+}
+
+}
 
 /*--------------footer----------*/
 

@@ -36,7 +36,7 @@ function findTotals() {
   var listItem = [];
   var storeItem = "price";
   var storeQuant = "quantity";
-  var subTotal = "subtotal";
+  //var subTotal = "subtotal";
   var total = 0;
 
   //document.write(
@@ -47,10 +47,15 @@ function findTotals() {
   }
 
 }
+var subTotal = $(".price").val();
+
 $(".submit").on("click", "#submit-form", function(){
   $("#form").submit();
 })
+$(".listitem").click(function() {
 
+  console.log("subTotal");
+});
 /*
 var pieces;
   d3.text("/cisabella.csv"), function(data) {
